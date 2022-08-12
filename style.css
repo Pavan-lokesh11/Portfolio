@@ -1,0 +1,223 @@
+body{
+    background-size:cover;
+    background-repeat:no-repeat; 
+
+}
+
+#hero{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+nav{
+    padding:0 30px;
+    box-sizing: border-box;
+}
+nav,nav div{
+    display:flex;
+    justify-content:space-between;
+    height:75px;
+    align-items:center;
+}
+nav img{
+    width:60px;
+    height:60px;
+}
+nav div{
+    width: 200px;
+}
+nav a{
+    font-size: 1.5rem;
+    text-decoration:none;
+}
+
+h1{
+    font-size:45px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+#hero{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:30px 100px;
+}
+#hero img{
+    width:500px;
+    height:400px;
+    /* background:red; */
+}
+p{
+    width:300px;
+    margin:20px auto;
+  }
+@media(max-width:950px){
+    #hero img{
+        width:400px;
+        height:300px;  
+    }
+    #hero{
+        padding:15px 5px; 
+    }
+}
+@media(max-width:763px){
+    #hero{
+        flex-direction:column-reverse;
+    }
+    #hero img{
+        width:350px;
+        height:200px;
+    }
+    #hero{
+        justify-content: center;
+        align-items:center;
+    }
+    #hero div{
+        text-align:center;
+    }
+}
+
+/* created after that data has been collected */
+
+
+.button{
+    background:linear-gradient(to right , blue,purple);
+    border:none;
+    color:rgb(250, 246, 246);
+    padding:15px 32px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:16px;
+    border-radius: 1.5em;
+}
+
+footer{
+    position: inherit;
+    display: inline-block;
+    bottom: 0;
+    width: 100%; 
+    height: 100px;
+
+}
+
+
+footer img{
+    width:30px;
+    height:30px;
+}
+
+@media(max-width:270px){
+    footer{
+        position: inherit;
+        flex-direction: column-reverse; 
+        /* top: 48em; */
+        width: auto; 
+        height: auto;
+        right: fit-content;
+        justify-content: space-between;
+        display: inline-block;  
+         box-sizing: border-box;
+    }
+}
+
+@media(max-width:320px){ 
+    footer{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        display: inline-block;
+    }
+}
+
+a:hover {
+    transform: translateY(-2px);
+    opacity: 0.7;
+}
+
+footer a{
+    padding:20px;
+    font-size:30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+/* css for project file ------------------------------------------INdividual port-------------------------------------------------*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main p{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+
+
+.sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+
+.pro img{
+ /* background-color: red; */
+    width: 80%;
+    padding-top: 1em;
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content; 
+    border-width: 0;
+    box-shadow: 5px 5px 5px 1px grey;
+    padding:10px;
+    box-sizing: border-box;
+    height: 600px;
+    width:350px;
+    border-radius: 1em;
+}
+.b2{
+    /*background-color: #4CAF50;*/
+    background:linear-gradient(to right , violet,purple);
+    position:flex;
+    border:none;
+    color:rgb(250, 246, 246);
+    padding:15px 32px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:16px;
+    border-radius: 1em;
+    /* text-decoration: none; */
+}
+
+@media(max-width:240px){
+    .pro{
+        /* height:inherit; */
+        width: 60%;
+    }
+}
+
+.pro a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
